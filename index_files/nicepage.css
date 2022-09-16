@@ -15893,6 +15893,20 @@ p {
 .u-container-style:not([class*="u-align-"]) {
   text-align: left;
 }
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+
+
 .u-nav:not([class*="u-align-"]) .u-nav {
   text-align: left;
 }
@@ -33626,7 +33640,7 @@ li.active > a.u-button-style.u-text-palette-1-base,
 li.active > a.u-button-style.u-text-palette-1-base[class*="u-border-"],
 a.u-button-style.u-text-palette-1-base,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"] {
-  color: #3a6ac3 !important;
+  color: #99f !important;
 }
 a.u-button-style.u-text-palette-1-base:hover,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"]:hover,
@@ -36905,7 +36919,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > h2:not(.u-subtitle),
         h2:not(.u-subtitle)
         {
-        color: #3a6ac3;
+        color: #99f;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
