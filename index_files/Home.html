@@ -16,6 +16,16 @@
   background-position: 50% 50%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:rgba(255,255,255,1);
+  box-shadow: 2px 2px 5px 2px #888888;
+  transition: background-color 0.2s ease;
+}
+
+
 .kuning {
   background-color: bisque !important;
 }
@@ -1176,6 +1186,19 @@
     function redirect_IG(){
       window.parent.location.href = "https://www.instagram.com/moabercerita/"; 
     }
+
+    function posisi_scroll(){
+      let y = window.pageYOffset;
+
+      if(y>2){
+        document.getElementById("logo_moa").classList.add("sticky");
+      }
+      else {
+       document.getElementById("logo_moa").classList.remove("sticky");
+      }
+
+    }
+
     </script>
 
 
@@ -1192,8 +1215,8 @@
     <link rel="canonical" href="https://website2372038.nicepage.io/">
   
 </head>
-  <body class="u-body u-xl-mode" data-new-gr-c-s-check-loaded="14.1079.0" data-gr-ext-installed="">
-<header style="z-index: 1;" class="u-clearfix u-header u-header" id="sec-b207"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+  <body onscroll="posisi_scroll();" id="titik_scroll" class="u-body u-xl-mode" data-new-gr-c-s-check-loaded="14.1079.0" data-gr-ext-installed="">
+<header id="logo_moa" style="z-index: 1;" class="u-clearfix u-header u-header" id="sec-b207"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div onclick="redirect_IG()" href="https://www.instagram.com/moabercerita/" class="u-image u-logo u-image-1">
           <img src="https://media.discordapp.net/attachments/1003173519879847966/1020325794351956018/305749182_1454052181774121_3746550422116598736_n.jpg" class="u-logo-image u-logo-image-1" style="border-radius:50%;">
         </div>
