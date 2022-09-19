@@ -15904,7 +15904,10 @@ p {
   min-height: 100%;
 }
 
-
+.hovering:hover {
+  background-color: #162746;
+  transition: background-color 0.5s ease;
+}
 
 
 .u-nav:not([class*="u-align-"]) .u-nav {
