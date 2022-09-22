@@ -15905,8 +15905,8 @@ p {
 }
 
 .hovering:hover {
-  background-color: #162746;
-  transition: background-color 0.5s ease;
+  background-color: #454e66;
+  transition: background-color 0.2s ease;
 }
 
 
@@ -24484,12 +24484,12 @@ section.u-palette-1-base:before,
 .u-container-layout.u-container-layout.u-palette-1-base:before,
 .u-table-alt-palette-1-base tr:nth-child(even) {
   color: #ffffff;
-  background-color: #3a6ac3;
+  background-color: #56b469;
 }
 .u-button-style.u-palette-1-base,
 .u-button-style.u-palette-1-base[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #3a6ac3 !important;
+  background-color: #56b469 !important;
 }
 .u-button-style.u-palette-1-base:hover,
 .u-button-style.u-palette-1-base[class*="u-border-"]:hover,
@@ -33643,7 +33643,7 @@ li.active > a.u-button-style.u-text-palette-1-base,
 li.active > a.u-button-style.u-text-palette-1-base[class*="u-border-"],
 a.u-button-style.u-text-palette-1-base,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"] {
-  color: #99f !important;
+  color: #dbda74 !important;
 }
 a.u-button-style.u-text-palette-1-base:hover,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"]:hover,
@@ -36922,7 +36922,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > h2:not(.u-subtitle),
         h2:not(.u-subtitle)
         {
-        color: #99f;
+        color: #56b469;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
