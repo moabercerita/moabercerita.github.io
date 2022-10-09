@@ -19692,6 +19692,11 @@ section.u-dialog-block:not(.u-dialog-open) {
 .u-hover-box {
   overflow: hidden;
 }
+
+
+.pointer {cursor: pointer;}
+
+
 .u-hover-box .u-over-slide {
   position: absolute;
   top: 0;
