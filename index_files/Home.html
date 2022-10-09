@@ -1218,41 +1218,6 @@
       
     </script>
 
-  <script>
-  function LoadVideo(){
-  var video = document.getElementById("myvideo");
-  var source = document.createElement('source');
-
-  source.setAttribute('src', 'https://cdn.discordapp.com/attachments/1003173519879847966/1028603702501711938/moa_intro_web.mp4');
-  source.setAttribute('type', 'video/mp4');
-
-  video.appendChild(source);
-  video.play();
-  console.log({
-    src: source.getAttribute('src'),
-    type: source.getAttribute('type'),
-  });
-  
-
-
-
-  setTimeout(function() {
-    video.pause();
-
-    source.setAttribute('src', 'https://cdn.discordapp.com/attachments/1003173519879847966/1020338700921614358/2022-09-16_21-19-57_x264.mp4');
-    source.setAttribute('type', 'video/webm');
-
-    video.load();
-    video.play();
-    console.log({
-      src: source.getAttribute('src'),
-      type: source.getAttribute('type'),
-    });
-  }, 3000);
-
-  }
-  </script>
-
     
      
 
@@ -1316,8 +1281,9 @@
     
     <section class="u-align-left u-clearfix u-image u-section-2" id="carousel_feec">
 
-        <video onload="LoadVideo();" autoplay muted loop id="myvideo">
-            
+        <video autoplay muted loop id="myVideo">
+            <source src="https://cdn.discordapp.com/attachments/1003173519879847966/1020338700921614358/2022-09-16_21-19-57_x264.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
           </video>
 
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
